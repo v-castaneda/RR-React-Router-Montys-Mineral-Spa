@@ -19,13 +19,13 @@ function App() {
           <div className="navBar">
             <ul>
               <li>
-                <a href={<Home />}>Home</a>
+                <Link to='/'>Home</Link>
               </li>
               <li>
-                <a href={<About />}>About Us</a>
+                <Link to='/about'>About Us</Link>
               </li>
               <li>
-                <a href={<Packages packages={packages}/>}>Our Packages</a>
+                <Link to='/packages'>Our Packages</Link>
               </li>
             </ul>
           </div>
